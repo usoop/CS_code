@@ -1,0 +1,37 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="./styles/global-styles.css" />
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<title>Set Up Local Hostnames</title>
+	</head>
+	<body>
+		<table class="hint-table">
+			<tr class="hint-header">
+				<td>Set Up Local Hostnames</td>
+			</tr>
+			<tr>
+				<td class="hint-body">
+					
+<br/><br/>
+<span class="report-header">Overview</span>
+<br/><br/>
+Local hostnames allow a site to have a DNS name without the need to set up DNS
+<br/><br/>
+<span class="report-header">Creating Local Hostname</span>
+<br/><br/>
+You may want to give mutillidae a hostname so it can be accessed more easily.
+For example, the following command would create a hostname that can stand in for
+the IP address 127.0.0.1
+<pre>
+echo -e "\n127.0.0.1\tmutillidae.local" &gt;&gt; /etc/hosts
+</pre>
+Then the site could be access at <span class="label">http://127.0.0.1/mutillidae/hints-page-wrapper.php?page=home.php</span> or 
+<span class="label">http://mutillidae.local/mutillidae/hints-page-wrapper.php?page=home.php</span>
+<br/><br/>				</td>
+			</tr>
+		</table>
+	</body>
+</html>

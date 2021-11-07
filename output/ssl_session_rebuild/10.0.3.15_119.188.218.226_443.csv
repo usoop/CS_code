@@ -1,0 +1,3 @@
+,ts,uid,id.orig_h,id.orig_p,id.resp_h,id.resp_p,proto,duration,orig_bytes,resp_bytes,conn_state,missed_bytes,history,orig_pkts,orig_ip_bytes,resp_pkts,resp_ip_bytes,service,orig_h,resp_h,resp_p,orig_p
+145,1556888833.513214,COVreM27mxGGfX1Vwk,10.0.3.15,49499,119.188.218.226,443,tcp,57.85427379608154,865.0,8523.0,SF,0,ShADadFf,13,1405,16,9167,ssl,10.0.3.15,119.188.218.226,443,49499
+170,1556888932.625661,CddlHI2BMSHdmVD9We,10.0.3.15,59695,119.188.218.226,443,tcp,50.81734919548035,865.0,12331.0,SF,0,ShADadFf,15,1485,20,13135,ssl,10.0.3.15,119.188.218.226,443,59695

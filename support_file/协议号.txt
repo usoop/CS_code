@@ -1,0 +1,135 @@
+协议号	协议	说明
+0	hopopt	ipv6逐跳选项
+1	icmp	internet控制消息
+2	igmp	internet组管理
+3	ggp	网关对网关
+4	ip	ip中的ip（封装）
+5	st	流
+6	tcp	传输控制
+7	cbt	cbt
+8	egp	外部网关协议
+9	igp	任何专用内部网关(cisco 将其用于 igrp)
+10	bbn-rcc-mon	bbnrcc监视
+11	nvp-ii	网络语音协议
+12	pup	pup
+13	argus	argus
+14	emcon	emcon
+15	xnet	跨网调试器
+16	chaos	chaos
+17	udp	用户数据报
+18	mux	多路复用
+19	dcn-meas	dcn测量子系统
+20	hmp	主机监视
+21	prm	数据包无线测量
+22	xns-idp	xerox ns idp
+23	trunk-1	第1主干
+24	trunk-2	第2主干
+25	leaf-1	第1叶
+26	leaf-2	第2叶
+27	rdp	可靠数据协议
+28	irtp	internet可靠事务
+29	iso-tp4	iso传输协议第4类
+30	netblt	批量数据传输协议
+31	mfe-nsp	mfe网络服务协议
+32	merit-inp	merit节点间协议
+33	sep	顺序交换协议
+34	3pc	第三方连接协议
+35	idpr	域间策略路由协议
+36	xtp	xtp
+37	ddp	数据报传送协议
+38	idpr-cmtp	idpr控制消息传输协议
+39	tp++	tp++传输协议
+40	il	il传输协议
+41	ipv6	ipv6
+42	sdrp	源要求路由协议
+43	ipv6-route	ipv6的路由标头
+44	ipv6-frag	ipv6的片断标头
+45	idrp	域间路由协议
+46	rsvp	保留协议
+47	gre	通用路由封装
+48	mhrp	移动主机路由协议
+49	bna	bna
+50	esp	ipv6的封装安全负载
+51	ah	ipv6的身份验证标头
+52	i-nlsp	集成网络层安全性tuba
+53	swipe	采用加密的ip
+54	narp	nbma地址解析协议
+55	mobile	ip移动性
+56	tlsp	传输层安全协议(使用 kryptonet 密钥管理)
+57	skip	skip
+58	ipv6-icmp	用于ipv6的icmp
+59	ipv6-nonxt	用于ipv6的无下一个标头
+60	ipv6-opts	ipv6的目标选项
+61		任意主机内部协议
+62	cftp	cftp
+63		任意本地网络
+64	sat-expak	satnet与后台expak
+65	kryptolan	kryptolan
+66	rvd	mit远程虚拟磁盘协议
+67	ippc	internet pluribus数据包核心
+68		任意分布式文件系统
+69	sat-mon	satnet监视
+70	visa	visa协议
+71	ipcv	internet数据包核心工具
+72	cpnx	计算机协议网络管理
+73	cphb	计算机协议检测信号
+74	wsn	王安电脑网络
+75	pvp	数据包视频协议
+76	br-sat-mon	后台satnet监视
+77	sun-nd	sun nd protocol-temporary
+78	wb-mon	wideband监视
+79	wb-expak	wideband expak
+80	iso-ip	iso internet协议
+81	vmtp	vmtp
+82	secure-vmtp	secure-vmtp
+83	vines	vines
+84	ttp	ttp
+85	nsfnet-igp	nsfnet-igp
+86	dgp	异类网关协议
+87	tcf	tcf
+88	eigrp	eigrp
+89	ospfigp	ospfigp
+90	sprite-rpc	sprite rpc协议
+91	larp	轨迹地址解析协议
+92	mtp	多播传输协议
+93	ax.25	ax.25帧
+94	ipip	ip中的ip封装协议
+95	micp	移动互联控制协议
+96	scc-sp	信号通讯安全协议
+97	etherip	ip中的以太网封装
+98	encap	封装标头
+99		任意专用加密方案
+100	gmtp	gmtp
+101	ifmp	ipsilon流量管理协议
+102	pnni	ip上的pnni
+103	pim	独立于协议的多播
+104	aris	aris
+105	scps	scps
+106	qnx	qnx
+107	a/n	活动网络
+108	ipcomp	ip负载压缩协议
+109	snp	sitara网络协议
+110	compaq-peer	compaq对等协议
+111	ipx-in-ip	ip中的ipx
+112	vrrp	虚拟路由器冗余协议
+113	pgm	pgm可靠传输协议
+114		任意0跳协议
+115	l2tp	第二层隧道协议
+116	ddx	d-ii数据交换(ddx)
+117	iatp	交互式代理传输协议
+118	stp	计划传输协议
+119	srp	spectralink无线协议
+120	uti	uti
+121	smp	简单邮件协议
+122	sm	sm
+123	ptp	性能透明协议
+124	isis	over ipv4
+125	fire	
+126	crtp	combat无线传输协议
+127	crudp	combat无线用户数据报
+128	sscopmce	
+129	iplt	
+130	sps	安全数据包防护
+131	pipe	ip中的专用ip封装
+132	sctp	流控制传输协议
+133	fc	光纤通道

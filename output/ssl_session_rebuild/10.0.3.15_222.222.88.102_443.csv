@@ -1,0 +1,2 @@
+,ts,uid,id.orig_h,id.orig_p,id.resp_h,id.resp_p,proto,duration,orig_bytes,resp_bytes,conn_state,missed_bytes,history,orig_pkts,orig_ip_bytes,resp_pkts,resp_ip_bytes,service,orig_h,resp_h,resp_p,orig_p
+55,1556888647.385139,Cv096q4KtNmeNLT2s5,10.0.3.15,53088,222.222.88.102,443,tcp,17.591073989868164,749,86936,SF,0,ShADadFf,49,2729,84,90300,ssl,10.0.3.15,222.222.88.102,443,53088

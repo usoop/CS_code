@@ -1,0 +1,30 @@
+src_ip,src_port,dst_ip,dst_port,protocol,application_name,application_category_name,user_agent,requested_server_name
+192.168.56.105,35970,192.168.56.107,80,6,HTTP,Web,Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98),192.168.56.107
+192.168.56.105,35968,192.168.56.107,80,6,HTTP,Web,Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98),192.168.56.107
+192.168.56.105,35966,192.168.56.107,80,6,HTTP,Web,Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98),192.168.56.107
+192.168.56.105,35982,192.168.56.107,80,6,HTTP,Web,Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0,192.168.56.107
+192.168.56.105,35988,192.168.56.107,80,6,HTTP,Web,Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0,192.168.56.107
+192.168.56.105,35974,192.168.56.107,80,6,HTTP,Web,Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0,192.168.56.107
+192.168.56.105,35980,192.168.56.107,80,6,HTTP,Web,Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0,192.168.56.107
+192.168.56.105,35972,192.168.56.107,80,6,HTTP,Web,Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98),192.168.56.107
+192.168.56.105,35978,192.168.56.107,80,6,HTTP,Web,Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0,192.168.56.107
+192.168.56.105,35986,192.168.56.107,80,6,HTTP,Web,Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0,192.168.56.107
+192.168.56.105,35984,192.168.56.107,80,6,HTTP,Web,Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0,192.168.56.107
+192.168.56.105,35990,192.168.56.107,80,6,HTTP,Web,Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0,192.168.56.107
+192.168.56.105,35994,192.168.56.107,80,6,HTTP,Web,Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98),192.168.56.107
+192.168.56.105,35992,192.168.56.107,80,6,HTTP,Web,Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98),192.168.56.107
+192.168.56.105,36000,192.168.56.107,80,6,HTTP,Web,Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98),192.168.56.107
+192.168.56.105,35998,192.168.56.107,80,6,HTTP,Web,Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98),192.168.56.107
+192.168.56.105,36012,192.168.56.107,80,6,HTTP,Web,Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98),192.168.56.107
+192.168.56.105,36010,192.168.56.107,80,6,HTTP,Web,Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98),192.168.56.107
+192.168.56.105,35996,192.168.56.107,80,6,HTTP,Web,Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98),192.168.56.107
+192.168.56.105,36018,192.168.56.107,80,6,HTTP,Web,Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98),192.168.56.107
+192.168.56.105,36024,192.168.56.107,80,6,HTTP,Web,Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98),192.168.56.107
+192.168.56.105,36030,192.168.56.107,80,6,HTTP,Web,Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98),192.168.56.107
+192.168.56.105,36008,192.168.56.107,80,6,HTTP,Web,Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98),192.168.56.107
+192.168.56.105,36016,192.168.56.107,80,6,HTTP,Web,Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98),192.168.56.107
+192.168.56.105,36022,192.168.56.107,80,6,HTTP,Web,Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98),192.168.56.107
+192.168.56.105,36028,192.168.56.107,80,6,HTTP,Web,Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98),192.168.56.107
+192.168.56.105,36014,192.168.56.107,80,6,HTTP,Web,Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98),192.168.56.107
+192.168.56.105,36020,192.168.56.107,80,6,HTTP,Web,Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98),192.168.56.107
+192.168.56.105,36026,192.168.56.107,80,6,HTTP,Web,Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98),192.168.56.107

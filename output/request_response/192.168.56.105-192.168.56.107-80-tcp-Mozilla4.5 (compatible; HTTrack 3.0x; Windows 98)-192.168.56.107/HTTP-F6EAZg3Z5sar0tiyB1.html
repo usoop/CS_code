@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="./styles/global-styles.css" />
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<title>SSL Misconfiguration</title>
+	</head>
+	<body>
+		<table class="hint-table">
+			<tr class="hint-header">
+				<td>SSL Misconfiguration</td>
+			</tr>
+			<tr>
+				<td class="hint-body">
+					<br/><br/>
+<span class="report-header">Overview</span>
+<br/><br/>
+SSL Misconfiguration causes a variety of issues such as sensitive pages being
+accessible via HTTP, use of weak SSL ciphers, and SSL stripping.
+<br/><br/>
+<a href="#videos" class="label"><img alt="YouTube" src="/images/youtube-play-icon-40-40.png" style="margin-right: 10px;" />Video Tutorials</a>
+<br/><br/>
+<span class="report-header">Discovery Methodology</span>
+<br/><br/>
+Use an SSL cipher audit tool such as SSLScan to test cipher strength. Observe
+how the site handles an HTTP request. If the site redirects the user to
+HTTPS, the site can be stripped.
+<br/><br/>
+<span class="report-header">Exploitation</span>
+<br/><br/>
+For SSLStripping, after ARP poisoning the client and the gateway, use SSLStrip to
+remove SSL connection.
+<br/><br/>
+To test cipher strength, the following tools are helpful
+<br/><br/>
+<span class="label">sslscan</span>
+<br/>
+<code>
+sslscan --targets=hosts.txt
+</code>
+<br/>
+<span class="label">NMap</span>
+<br/>
+<code>
+nmap -p 443 -v -Pn --script=ssl-enum-ciphers --open -iL hosts.txt
+</code>
+<br/><br/>
+<span id="videos" class="report-header">Videos</span>
+<br/><br/>
+<br/><span style="background-color: #ffff99;">Warning: Could not reach YouTube via network connection. Failed to embed video.</span><br/><br/><a href="https://www.youtube.com/watch?v=Eqfe_HYX7MU" target="_blank"><img style="margin-right: 5px;" src="images/youtube-play-icon-40-40.png" alt="YouTube" /><span class="label">How to check HTTPS certificate from command line</span></a><br/><span style="background-color: #ffff99;">Warning: Could not reach YouTube via network connection. Failed to embed video.</span><br/><br/><a href="https://www.youtube.com/watch?v=Hz29n-Swx1w" target="_blank"><img style="margin-right: 5px;" src="images/youtube-play-icon-40-40.png" alt="YouTube" /><span class="label">How to check HTTPS Certificates for common issues</span></a><br/><span style="background-color: #ffff99;">Warning: Could not reach YouTube via network connection. Failed to embed video.</span><br/><br/><a href="https://www.youtube.com/watch?v=TpNa09xn34I" target="_blank"><img style="margin-right: 5px;" src="images/youtube-play-icon-40-40.png" alt="YouTube" /><span class="label">cURL Error: SSL Certificate Problem</span></a><br/><span style="background-color: #ffff99;">Warning: Could not reach YouTube via network connection. Failed to embed video.</span><br/><br/><a href="https://www.youtube.com/watch?v=ixy7Fr0s9Fk" target="_blank"><img style="margin-right: 5px;" src="images/youtube-play-icon-40-40.png" alt="YouTube" /><span class="label">How to Set HTTP Headers Using Apache Server</span></a><br/><span style="background-color: #ffff99;">Warning: Could not reach YouTube via network connection. Failed to embed video.</span><br/><br/><a href="https://www.youtube.com/watch?v=7O391fuNZMk" target="_blank"><img style="margin-right: 5px;" src="images/youtube-play-icon-40-40.png" alt="YouTube" /><span class="label">Check HTTP Headers with cURL</span></a><br/><span style="background-color: #ffff99;">Warning: Could not reach YouTube via network connection. Failed to embed video.</span><br/><br/><a href="https://www.youtube.com/watch?v=PcXZqUqBJeg" target="_blank"><img style="margin-right: 5px;" src="images/youtube-play-icon-40-40.png" alt="YouTube" /><span class="label">How to Check HTTP Headers (Command Line)</span></a><br/><span style="background-color: #ffff99;">Warning: Could not reach YouTube via network connection. Failed to embed video.</span><br/><br/><a href="https://www.youtube.com/watch?v=lvi_NM1n5vw" target="_blank"><img style="margin-right: 5px;" src="images/youtube-play-icon-40-40.png" alt="YouTube" /><span class="label">How to Check HTTP Headers from Browser</span></a><br/><span style="background-color: #ffff99;">Warning: Could not reach YouTube via network connection. Failed to embed video.</span><br/><br/><a href="https://www.youtube.com/watch?v=fXu8KWIrnK4" target="_blank"><img style="margin-right: 5px;" src="images/youtube-play-icon-40-40.png" alt="YouTube" /><span class="label">What is HTTP Strict Transport Security (HSTS)?</span></a><br/><span style="background-color: #ffff99;">Warning: Could not reach YouTube via network connection. Failed to embed video.</span><br/><br/><a href="https://www.youtube.com/watch?v=81A_cAxusTM" target="_blank"><img style="margin-right: 5px;" src="images/youtube-play-icon-40-40.png" alt="YouTube" /><span class="label">What is the HSTS Preload list?</span></a><br/><span style="background-color: #ffff99;">Warning: Could not reach YouTube via network connection. Failed to embed video.</span><br/><br/><a href="https://www.youtube.com/watch?v=ZSUGfIy1ds8" target="_blank"><img style="margin-right: 5px;" src="images/youtube-play-icon-40-40.png" alt="YouTube" /><span class="label">Cookies: Part 2 - How Secure Cookies Work</span></a><br/><span style="background-color: #ffff99;">Warning: Could not reach YouTube via network connection. Failed to embed video.</span><br/><br/><a href="https://www.youtube.com/watch?v=lKX1MIIxFCg" target="_blank"><img style="margin-right: 5px;" src="images/youtube-play-icon-40-40.png" alt="YouTube" /><span class="label">SSLScan: Part 1 - How to test HTTPS, TLS, & SSL ciphers</span></a><br/><span style="background-color: #ffff99;">Warning: Could not reach YouTube via network connection. Failed to embed video.</span><br/><br/><a href="https://www.youtube.com/watch?v=DDbwrMrwOFc" target="_blank"><img style="margin-right: 5px;" src="images/youtube-play-icon-40-40.png" alt="YouTube" /><span class="label">SSLScan: Part 2 - How to Interpret the Results</span></a><br/><span style="background-color: #ffff99;">Warning: Could not reach YouTube via network connection. Failed to embed video.</span><br/><br/><a href="https://www.youtube.com/watch?v=zUwPhHigi_M" target="_blank"><img style="margin-right: 5px;" src="images/youtube-play-icon-40-40.png" alt="YouTube" /><span class="label">How to Install SSLScan on Windows</span></a><br/><span style="background-color: #ffff99;">Warning: Could not reach YouTube via network connection. Failed to embed video.</span><br/><br/><a href="https://www.youtube.com/watch?v=Ry884U5YTcs" target="_blank"><img style="margin-right: 5px;" src="images/youtube-play-icon-40-40.png" alt="YouTube" /><span class="label">What is Certificate Transparency - Part 1</span></a><br/><span style="background-color: #ffff99;">Warning: Could not reach YouTube via network connection. Failed to embed video.</span><br/><br/><a href="https://www.youtube.com/watch?v=eCOkyuLxhl8" target="_blank"><img style="margin-right: 5px;" src="images/youtube-play-icon-40-40.png" alt="YouTube" /><span class="label">What is Certificate Transparency? - Part 2 - Expect-CT Header</span></a><br/><br/>
+
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

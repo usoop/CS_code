@@ -1,0 +1,2 @@
+<div>&nbsp;</div>	<div class="help-text-header">
+					Page /opt/lampp/htdocs/mutillidae/home.php does not have any help documentation.</div><div>&nbsp;</div>
