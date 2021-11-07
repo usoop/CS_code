@@ -41,7 +41,8 @@ import shutil
 # 需要用zeek获取的特征：request时间、response时间、response字节数、referrer、status code、
 
 class Session_feature_extractor:
-    def __init__(self,pcap_path):
+    def __init__(self,filename):
+        pcap_path = os.path.join("./pcaps",filename)
         self._wrapper_for_zeek(pcap_path)
         self.df = self._read_log()
 
@@ -198,8 +199,5 @@ class Session_feature_extractor:
 
 if __name__== "__main__":
     # se = Session_feature_extractor("./pcaps/test_20211031_v6.pcap")
-    se = Session_feature_extractor("./pcaps/httrack.pcap")
-    # H:\BaiduNetdiskDownload\jingdong.pcap
-    
+    se = Session_feature_extractor("httrack.pcap")
     se.run()
-    # merge_result()

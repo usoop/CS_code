@@ -355,6 +355,5 @@ class Extractor:
 
 if __name__ == "__main__":
     ex = Extractor()
-    # ex.extract_traffic_by_zeek("active_scan.pcap")
-    # ex.extract_by_nfstream("active_scan.pcap")
+    # 如果提取http特征，is_http为True，如果提取ssl特征 is_http为False
     ex.extract_traffic_integration("httrack.pcap",is_http=False)
