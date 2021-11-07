@@ -206,11 +206,11 @@ class Extractor:
                     if column.startswith("san") or column.startswith("basic_constraints") or column.startswith("certificate"):
                         client_x509["client_"+column] = y[column]
                         client_x509.drop(columns=[column],inplace=True)
-                x.to_csv("before_ssl_merge.csv")
+                # x.to_csv("before_ssl_merge.csv")
                 x = pd.merge(x,server_x509,on=["cert_chain_fuids"],how="left")
                 x = pd.merge(x,client_x509,on=["client_cert_chain_fuids"],how="left")
                 # print("x.columns",x.columns)
-                x.to_csv("after_ssl_merge.csv")
+                # x.to_csv("after_ssl_merge.csv")
             else:
                 x = pd.merge(x,y,how='left')
             return x
