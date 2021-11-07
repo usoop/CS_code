@@ -1,13 +1,13 @@
 # 文件夹说明
-**doc** :存放相关说明文档
-extract_files：临时存放从HTTP流量中提取出的文件
-zeek_script：用于处理pcap的zeek脚本，通过python脚本发调用
-python_script:实现各种功能的python脚本，一般首先调用zeek脚本提取流量中的初级特征，然后利用python对初级特征进行处理
-output：python脚本提取结果的输出路径，包含多个子目录，与python_script
-pcaps：待处理的pcap文件，所有需要处理的pcap文件都要首先放到该文件夹下
-support_file：运行中所需的一些支撑文件
-temp：运行中产生的中间结果，一般是zeek的log日志
-temp_log_file: 运行中产生的中间结果，一般是zeek的log日志
+- doc:存放相关说明文档
+- extract_files：临时存放从HTTP流量中提取出的文件
+- zeek_script：用于处理pcap的zeek脚本，通过python脚本发调用
+- python_script:实现各种功能的python脚本，一般首先调用zeek脚本提取流量中的初级特征，然后利用python对初级特征进行处理
+- output：python脚本提取结果的输出路径，包含多个子目录，与python_script
+- pcaps：待处理的pcap文件，所有需要处理的pcap文件都要首先放到该文件夹下
+- support_file：运行中所需的一些支撑文件
+- temp：运行中产生的中间结果，一般是zeek的log日志
+- temp_log_file: 运行中产生的中间结果，一般是zeek的log日志
 # 使用说明
 1. 把要提取的流量放到pcaps文件夹下
 2. 打开进入python_scrit文件夹，各个python脚本的作用与输出路径与文件见python脚本功能表：
