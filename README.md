@@ -10,8 +10,10 @@
 - temp_log_file: 运行中产生的中间结果，一般是zeek的log日志
 
 # 使用说明
+0. 安装所需的库，在requirements.txt文件中
 1. 把要提取的流量放到pcaps文件夹下
-2. 打开进入python_scrit文件夹，各个python脚本的作用与输出路径与文件见python脚本功能表：
+2. 打开进入python_scrit文件夹，各个python脚本的作用与输出路径与文件见python脚本功能表
+3. 修改 `if __name__=="__main__":`后面指定的pcap文件名，然后运行python脚本
 
 python脚本功能表
 | 文件名                                                        | 作用                                                              | 输出路径                        | 输出文件                                                                            |
