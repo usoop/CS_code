@@ -8,6 +8,7 @@
 - support_file：运行中所需的一些支撑文件
 - temp：运行中产生的中间结果，一般是zeek的log日志
 - temp_log_file: 运行中产生的中间结果，一般是zeek的log日志
+
 # 使用说明
 1. 把要提取的流量放到pcaps文件夹下
 2. 打开进入python_scrit文件夹，各个python脚本的作用与输出路径与文件见python脚本功能表：
